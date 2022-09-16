@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    background-color: beige;
+}
+
+.header {
+    background-color: azure;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 2.4rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form {
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: beige;
+    display: grid;
+    align-items: center;
+  
+}
+
+.customer label {
+    color: blue;
+    margin-top: 2rem;
+    padding: 0.5rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.customer input {
+    padding: 0.2rem 1rem;
+    height: 2rem;
+    margin-bottom: .5rem;
+    outline: darkblue;
+    border-radius: 5px;
+    color: rgb(3, 3, 19);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.submit-btn-car {
+    width: 4rem;
+    height: 2.2rem;
+    background-color: green;
+    color: #fff;
+    border: unset;
+    border-radius: 4px;
+    margin-bottom: 1.8rem;
+    cursor: pointer;
+}
+
+.car-details label {
+    color: blue;
+    padding: 0.5rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.car-details input {
+    color: rgb(3, 3, 19);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    height: 2rem;
+    margin-bottom: .5rem;
+    outline: darkblue;
+    border-radius: 5px;
+}
+
+.submit-btn-mixed {
+    width: 4rem;
+    height: 2.2rem;
+    background-color: green;
+    color: #fff;
+    border: unset;
+    border-radius: 4px;
+    margin-bottom: 1.8rem;
+    cursor: pointer;
+}
+
+.big-vehicles {
+    margin: 1.5rem 0;
+}
+.big-vehicles .mixed {
+    color: blue;
+    padding: 0.5rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.big-vehicles input {
+    padding: 0.2rem 1rem;
+    height: 2rem;
+}
+
+.big-vehicles .btnMixed {
+    margin: .2rem .6rem;
+    font-family: sans-serif;
+    background-color: green;
+    color: white;
+    width: 8rem;
+    height: 6rem;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cars {
+    margin: 1.5rem 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cars-label {
+    color: blue;
+    padding: 0.5rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.cars input {
+    padding: .2rem 1rem;
+    height: 2rem;
+}
+
+.cars .btnSmall {
+    margin: .2rem .6rem;
+    font-family: sans-serif;
+    background-color: green;
+    color: white;
+    width: 8rem;
+    height: 6rem;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+}

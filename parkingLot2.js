@@ -8,10 +8,13 @@ for (let carSlot of carSlots) {
         carSlot.style.backgroundColor = 'orange'
         carSlot.innerHTML = '<h2>Slot Booked!</h2>'
 
-        setTimeout(
-            () => {
-                carSlot.style.backgroundColor = 'orange'
-            }, 50000)
+       if (slotBooked) {
+        carSlot.addEventListener('click', unBookCarSlot)
+        function unBookCarSlot() {
+            carSlot.style.backgroundColor = 'green'
+            carSlot.innerHTML = '<h3>Book slot.</h3>'
+        }
+       }
     }
 }
 
@@ -22,9 +25,13 @@ for (let mixedSlot of mixedSlots) {
         mixedSlot.style.backgroundColor = 'orange'
         mixedSlot.innerHTML = '<h2>Slot Booked!</h2>'
 
-        setTimeout(
-            () => {
-            mixedSlot.style.backgroundColor= 'orange'
-        }, 5000);
+        if(slotBooked) {
+            mixedSlot.addEventListener('click', unBookSlot)
+            function unBookSlot() {
+                mixedSlot.style.backgroundColor = 'green'
+                mixedSlot.innerHTML = '<h3>Book Slot</h3>'
+            }
+        } 
+        
     }
 }

@@ -2,7 +2,7 @@ let carSlots = document.getElementsByClassName('btnSmall')
 let mixedSlots = document.getElementsByClassName('btnMixed')
 
 for (let carSlot of carSlots) {
-    carSlot.addEventListener('click', slotBooked, console.log('click'))
+    carSlot.addEventListener('click', slotBooked)
 
     function slotBooked() {
         carSlot.style.backgroundColor = 'orange'
@@ -24,7 +24,7 @@ for (let mixedSlot of mixedSlots) {
 
         setTimeout(
             () => {
-            mixedSlot.previousElementSibling.style.display= 'block'
+            mixedSlot.style.backgroundColor= 'orange'
         }, 5000);
     }
 }

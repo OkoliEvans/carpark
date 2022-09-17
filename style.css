@@ -154,3 +154,7 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.renew-btn {
+    display: none;
+}

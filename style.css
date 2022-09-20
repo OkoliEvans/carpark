@@ -54,7 +54,7 @@
     font-weight: bold;
 }
 
-.submit-btn-car {
+.submit-btn {
     width: 4rem;
     height: 2.2rem;
     background-color: green;
@@ -82,17 +82,6 @@
     margin-bottom: .5rem;
     outline: darkblue;
     border-radius: 5px;
-}
-
-.submit-btn-mixed {
-    width: 4rem;
-    height: 2.2rem;
-    background-color: green;
-    color: #fff;
-    border: unset;
-    border-radius: 4px;
-    margin-bottom: 1.8rem;
-    cursor: pointer;
 }
 
 .big-vehicles {
